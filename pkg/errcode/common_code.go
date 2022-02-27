@@ -9,5 +9,5 @@ var (
 	UnauthorizedTokenError    = NewError(104, "鉴权失败，Token 错误")
 	UnauthorizedTokenTimeout  = NewError(105, "鉴权失败， Token 超时")
 	UnauthorizedTokenGenerate = NewError(106, "鉴权失败， Token 生成失败")
-	TooManyRequest            = NewError(107, "请求过多")
+	TooManyRequests           = NewError(107, "请求过多")
 )

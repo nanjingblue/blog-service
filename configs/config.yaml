@@ -17,6 +17,7 @@ APP:
     - .jpg
     - .jpeg
     - .png
+  DefaultContextTimeout: 60
 
 JWT:
   Secret: nanjingblue

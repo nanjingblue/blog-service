@@ -18,15 +18,16 @@ type JWTSettings struct {
 }
 
 type AppSettings struct {
-	DefaultPageSize      int
-	MaxPageSize          int
-	LogSavePath          string
-	LogFileName          string
-	LogFileExt           string
-	UploadSavePath       string
-	UploadServerUrl      string
-	UploadImageMaxSize   int
-	UploadImageAllowExts []string
+	DefaultPageSize       int
+	MaxPageSize           int
+	LogSavePath           string
+	LogFileName           string
+	LogFileExt            string
+	UploadSavePath        string
+	UploadServerUrl       string
+	UploadImageMaxSize    int
+	UploadImageAllowExts  []string
+	DefaultContextTimeout time.Duration
 }
 
 type DatabaseSettings struct {
